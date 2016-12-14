@@ -1,15 +1,15 @@
 ![AtomPlugin](https://github.com/lenguaje-latino/latino-atom-plugin/raw/master/screenshot.png "AtomPlugin")
 
-## Como instalar
+## Instalar y activar
+#### Opción 1
+1. Ir a Edit -> Preferences (ó `Ctrl + Tecla Coma`).
+2. Ir a Install -> Escribir `latino` en el buscador.
+3. Nos aparecerá "lenguaje-latino" en la búsqueda, presionamos `install`.
 
-1. Copiar éste directorio al directorio de instalación de **ATOM** `` Atom >> packages ``
-3. Reiniciar `Ctlr + Alt + R`
+#### Opción 2
+1. Escribimos en la consola (terminal, konsole, etc) (bash, Linux) lo siguiente:
+```bash
+git clone https://github.com/lenguaje-latino/latino-atom-plugin ~/.atom/packages/latino
+```
 
-## Activación
-
-1. Abrir **Atom**
-3. Menu **Preferences** >> **Install** >> `"Packages are published to atom.io and are installed to /home/..."`
-
-Ejemplo: `"Packages are published to atom.io and are installed to /home/root/.atom/packages"`
-
-El directorio será `/home/root/.atom/packages`
+2. Realizamos paso 1 y 2 de la Opción 1
