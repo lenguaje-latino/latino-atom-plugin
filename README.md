@@ -11,5 +11,4 @@
 ```bash
 git clone https://github.com/lenguaje-latino/latino-atom-plugin ~/.atom/packages/latino
 ```
-
-2. Realizamos paso 1 y 2 de la Opción 1
+2 . Realizamos paso 1 y 2 de la Opción 1
