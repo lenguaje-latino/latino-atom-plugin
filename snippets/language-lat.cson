@@ -1,43 +1,34 @@
-'.source.lat':
-    'escribir':
-        'prefix': 'esc'
-        'body': 'escribir("${0:...}"})'
-    'si':
-        'prefix': 'si'
-        'body': 'si(${0:verdadero})\n\tescribir("${1:...}")\nfin'
-    'si-sino':
-        'prefix': 'sino'
-        'body': 'si(${0:verdadero})\n\tescribir("${1:...}")\nsino\n\tescribir("${2:...}")\nfin'
-    'mientras':
-        'prefix': 'mie'
-        'body': 'mientras (i < ${0:10})\n\tescribir("${1:...}")\nfin'
-    'hacer':
-        'prefix': 'hac'
-        'body': 'hacer\n\tescribir(i)\n\ti++\ncuando (i < ${0:10})'
-    'elegir':
-        'prefix': 'ele'
-        'body': 'elegir(${0:str})\nfin'
-    'caso':
-        'prefix': 'cas'
-        'body': "caso '${0:x}':"
-    'desde':
-        'prefix': 'des'
-        'body': 'desde(i=0; i<${0:10}; i++)\n\tescribir(i)\nfin'
-    'funcion':
-        'prefix': 'fun'
-        'body': 'funcion ${0:name}(s)\n\tretorno s\nfin'
-    'leer teclado':
-        'prefix': 'leer'
-        'body': 'entrada = leer()'
-    'ejecutar archivo':
-        'prefix': 'ejea'
-        'body': 'ejecutar_archivo("${0:name}.lat")'
-    'leer archivo':
-        'prefix': 'leer'
-        'body': 'leer_archivo("${0:name}.txt")'
-    'escribir archivo':
-        'prefix': 'esca'
-        'body': 'escribir_archivo("${0:name}.txt", s)'
-    'ejecutar comando':
-        'prefix': 'ejec'
-        'body': 'sistema(${0:date})'
+'.source.latino':
+  'si conditional':
+    'prefix': 'si',
+    'body': 'si ${1:condicion}\n\t${2:#codigo}\nfin'
+  'si sino conditional':
+    'prefix': 'sn',
+    'body': 'si ${1:condicion}\n\t${2:#codigo}\nsino\n\t${3:#codigo}\nfin'
+  'ciclo mientras':
+    'prefix': 'mientras'
+    'body': 'mientras ${1:condicion}\n\t${2:#codigo}\nfin'
+  'osi conditional':
+    'prefix': 'osi',
+    'body': '\bosi ${1:condicion}\n\t${2:#código}\n'
+  'ciclo repetir':
+    'prefix': 'repetir'
+    'body': 'repetir\n\t${2:#codigo}\nhasta ${1:condicion}'
+  'ciclo desde':
+    'prefix': 'desde'
+    'body': 'desde (${1:inicio}; ${2:condicion}; ${3:incremento})\n\t${4:#body}\nfin'
+  'funcion':
+    'prefix': 'fun'
+    'body': 'funcion ${1:nombre_funcion} (${2:argumentos})\n\t${3:#codigo}\nfin'
+  'retorno':
+    'prefix': 'ret'
+    'body': 'retorno ${1:valor}'
+  'escribir':
+    'prefix': 'esc'
+    'body': 'escribir("${1:mensaje}")'
+  'imprimir':
+    'prefix': 'imp'
+    'body': 'imprimir("${1:mensaje}")'
+ 'incluir':
+    'prefix': 'inc'
+    'body': 'incluir("${1:modulo}")'
