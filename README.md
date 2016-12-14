@@ -1,4 +1,4 @@
-![AtomPlugin](https://github.com/primitivorm/latino/raw/master/AtomPlugin/screenshot.png "AtomPlugin")
+![AtomPlugin](https://github.com/lenguaje-latino/latino-atom-plugin/raw/master/screenshot.png "AtomPlugin")
 
 ## Como instalar
 
