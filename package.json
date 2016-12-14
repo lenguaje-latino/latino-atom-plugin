@@ -1,17 +1,64 @@
 {
-    "name": "language-latino",
-    "version": "0.0.1",
-    "private": false,
-    "description": "LatinoPlugin para Atom",
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0"
-    },
-    "dependencies": {},
-    "readme": "",
-    "readmeFilename": "README.md",
-    "bugs": {
-        "url": "https://github.com/primitivorm/latino/issues"
-    },
-    "homepage": "https://github.com/primitivorm/latino"
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-1161114-8874-jh5zj8/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-1161114-8874-jh5zj8/package.tgz",
+        "spec": "/tmp/d-1161114-8874-jh5zj8/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-1161114-8874-1t4nli3"
+    ]
+  ],
+  "_from": "../d-1161114-8874-jh5zj8/package.tgz",
+  "_id": "language-latino@0.3.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/language-latino",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-1161114-8874-jh5zj8/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-1161114-8874-jh5zj8/package.tgz",
+    "spec": "/tmp/d-1161114-8874-jh5zj8/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1161114-8874-jh5zj8/package.tgz",
+  "_shasum": "461dcc555b9fed5d9f2124896c2b0a846df5007b",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-1161114-8874-jh5zj8/package.tgz",
+  "_where": "/tmp/apm-install-dir-1161114-8874-1t4nli3",
+  "bugs": {
+    "url": "https://github.com/primitivorm/language-latino/issues"
+  },
+  "dependencies": {},
+  "description": "Agrega resaltado de sintaxis y fragmentos de codigo latino en Atom.",
+  "devDependencies": {},
+  "engines": {
+    "atom": "*"
+  },
+  "homepage": "https://github.com/primitivorm/language-latino#readme",
+  "keywords": [
+    "language",
+    "latino",
+    "grammar"
+  ],
+  "license": "MIT",
+  "name": "language-latino",
+  "optionalDependencies": {},
+  "readme": "#Lenguaje latino soportado en Atom\n\nAgrega resaltado de sintaxis y fragmentos de codigo latino en Atom.\n\n###Para instalar siga las siguientes instrucciones:\n\n![latino atom instalar](https://raw.githubusercontent.com/primitivorm/language-latino/master/latino_atom_instalar.png \"latino atom instalar\")\n\n1. Abra su editor de texto Atom\n2. Clic en el menu Archivo->Preferencias (File->Settings)\n    o Editar->Preferencias (Edit->Settings) dependiendo su sistema operativo\n3. Clic en Instalar (Install)\n4. Abra un archivo de Latino extension (*.lat)\n\n![latino atom](https://raw.githubusercontent.com/primitivorm/language-latino/master/latino_atom.png \"latino atom\")\n\n\nFragmentos de codigo (snippets)\n---\n| Desencadenador | Nombre                                  | codigo                                          |\n|----------------|-----------------------------------------|-------------------------------------------------|\n| si             | si condicional                          | si condicion #codigo fin                        |\n| sn             | si sino condicional                     | si condicion #codigo sino #codigo fin           |\n| mientras       | ciclo mientras                          | mientras condition #codigo fin                  |\n| repetir        | ciclo repetir                           | repetir #codigo hasta condicion                 |\n| desde          | ciclo desde                             | desde ( i = 0; i < 10; i++) #codigo fin         |\n| fun            | funcion                                 | funcion nombre_funcion (argumentos) #codigo fin |\n| ret            | retorno                                 | retorno valor                                   |\n| esc            | escribir                                | escribir(\"mensaje\")                             |\n| inc            | incluir                                 | incluir \"modulo\"                                |\n\nLicencia\n---\nLatino Atom Plugin se distribuye bajo la licencia MIT.\n\n####Cualquier aportacion o sugerencia es bienvenida.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primitivorm/language-latino.git"
+  },
+  "version": "0.3.0"
 }
