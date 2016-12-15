@@ -2,4 +2,4 @@
   'editor':
     'commentStart': '#'
     'increaseIndentPattern': '\\b(si|sino|elegir|caso|defecto|mientras|repetir|desde|funcion|fun|osi)\\b((?!fin).)*$|\\{\\s*$'
-    'decreaseIndentPattern': '^\\s*(fin,?|\\}\\)?).*$'
+    'decreaseIndentPattern': '^\\s*(fin|sino|osi,?|\\}\\)?).*$'

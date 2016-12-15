@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-1161114-8874-jh5zj8/package.tgz",
+        "raw": "/tmp/d-1161114-11194-1epz4zp/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-1161114-8874-jh5zj8/package.tgz",
-        "spec": "/tmp/d-1161114-8874-jh5zj8/package.tgz",
+        "rawSpec": "/tmp/d-1161114-11194-1epz4zp/package.tgz",
+        "spec": "/tmp/d-1161114-11194-1epz4zp/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-1161114-8874-1t4nli3"
+      "/tmp/apm-install-dir-1161114-11194-1cji0ns"
     ]
   ],
-  "_from": "../d-1161114-8874-jh5zj8/package.tgz",
-  "_id": "language-latino@0.3.0",
+  "_from": "../d-1161114-11194-1epz4zp/package.tgz",
+  "_id": "language-latino@0.4.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/language-latino",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-1161114-8874-jh5zj8/package.tgz",
+    "raw": "/tmp/d-1161114-11194-1epz4zp/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-1161114-8874-jh5zj8/package.tgz",
-    "spec": "/tmp/d-1161114-8874-jh5zj8/package.tgz",
+    "rawSpec": "/tmp/d-1161114-11194-1epz4zp/package.tgz",
+    "spec": "/tmp/d-1161114-11194-1epz4zp/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-1161114-8874-jh5zj8/package.tgz",
-  "_shasum": "461dcc555b9fed5d9f2124896c2b0a846df5007b",
+  "_resolved": "file:../d-1161114-11194-1epz4zp/package.tgz",
+  "_shasum": "daaf1280c237ef2c8283ade5a5484827b095abac",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-1161114-8874-jh5zj8/package.tgz",
-  "_where": "/tmp/apm-install-dir-1161114-8874-1t4nli3",
+  "_spec": "/tmp/d-1161114-11194-1epz4zp/package.tgz",
+  "_where": "/tmp/apm-install-dir-1161114-11194-1cji0ns",
   "bugs": {
     "url": "https://github.com/primitivorm/language-latino/issues"
   },
@@ -60,5 +60,5 @@
     "type": "git",
     "url": "git+https://github.com/primitivorm/language-latino.git"
   },
-  "version": "0.3.0"
+  "version": "0.4.0"
 }

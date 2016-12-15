@@ -2,15 +2,15 @@
   'si conditional':
     'prefix': 'si',
     'body': 'si ${1:condicion}\n\t${2:#codigo}\nfin'
+  'osi conditional':
+    'prefix': 'osi',
+    'body': 'osi ${1:condicion}\n\t${2:#código}\n'
   'si sino conditional':
     'prefix': 'sn',
     'body': 'si ${1:condicion}\n\t${2:#codigo}\nsino\n\t${3:#codigo}\nfin'
   'ciclo mientras':
     'prefix': 'mientras'
     'body': 'mientras ${1:condicion}\n\t${2:#codigo}\nfin'
-  'osi conditional':
-    'prefix': 'osi',
-    'body': '\bosi ${1:condicion}\n\t${2:#código}\n'
   'ciclo repetir':
     'prefix': 'repetir'
     'body': 'repetir\n\t${2:#codigo}\nhasta ${1:condicion}'
@@ -29,6 +29,6 @@
   'imprimir':
     'prefix': 'imp'
     'body': 'imprimir("${1:mensaje}")'
- 'incluir':
+  'incluir':
     'prefix': 'inc'
     'body': 'incluir("${1:modulo}")'
