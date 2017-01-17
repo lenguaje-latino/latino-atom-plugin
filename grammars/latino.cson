@@ -9,7 +9,7 @@
     'include': '#comment'
   }
   {
-    'match': '\\b(si|fin|sino|elegir|caso|defecto|repetir|desde|hasta|mientras|funcion|retorno|retornar|osi|fun|ret)\\b'
+    'match': '\\b(si|fin|sino|elegir|caso|defecto|repetir|desde|hasta|mientras|funcion|retorno|retornar|osi|fun|ret|global)\\b'
     'name': 'keyword.control.latino'
   }
   {
